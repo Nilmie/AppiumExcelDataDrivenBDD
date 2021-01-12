@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2021-01-08T12:47:38 IST" name="Default suite" finished-at="2021-01-08T12:47:57 IST" duration-ms="19101">
+=======
+  <suite started-at="2021-01-08T11:14:37 IST" name="Default suite" finished-at="2021-01-08T11:14:57 IST" duration-ms="19583">
+>>>>>>> 1cc94f76da70dd1b84b99cc3928df1b10ac3287c
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@3fb1549b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+<<<<<<< HEAD
+    <test started-at="2021-01-08T12:47:38 IST" name="Default test" finished-at="2021-01-08T12:47:57 IST" duration-ms="19101">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner@3fb1549b]" started-at="2021-01-08T12:47:38 IST" name="setUpClass" finished-at="2021-01-08T12:47:39 IST" duration-ms="295" status="PASS">
+=======
+    <test started-at="2021-01-08T11:14:37 IST" name="Default test" finished-at="2021-01-08T11:14:57 IST" duration-ms="19583">
+      <class name="MobileTest.Mobile">
+        <test-method signature="test1()[pri:0, instance:MobileTest.Mobile@5fd4f8f5]" started-at="2021-01-08T11:14:37 IST" name="test1" finished-at="2021-01-08T11:14:57 IST" duration-ms="19530" status="PASS">
+>>>>>>> 1cc94f76da70dd1b84b99cc3928df1b10ac3287c
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@3fb1549b]" started-at="2021-01-08T12:47:39 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-08T12:47:57 IST" duration-ms="18669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile Calculator Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@3fb1549b]" started-at="2021-01-08T12:47:57 IST" name="tearDownClass" finished-at="2021-01-08T12:47:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
